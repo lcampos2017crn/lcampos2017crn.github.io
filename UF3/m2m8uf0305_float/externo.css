@@ -1,0 +1,88 @@
+body {background-image: url(logo_x_pattern.png);}
+	
+
+	div {background-color: #6CE;
+		margin: 10px;
+		border: inset 4px black;
+		font-family: 'papyrus';
+		padding: 0px;}
+	
+
+
+		#cap {height: 200px;
+			width: 972px;
+			margin: 0 auto 10px auto;
+			border-radius: 25px;
+			box-shadow: 4px 4px 12px black;}
+
+		#peu {height: 200px;
+		width: 600px;
+		margin: 10px auto 10px auto;
+		border-radius: 25px;
+		box-shadow: 4px 4px 12px black;
+		text-align: center;
+		background-image: url(paper_2.png);}
+
+
+
+			
+		#contenidor {width: 1000px;
+					margin:0 auto;
+					box-shadow: 4px 4px 12px black;
+					border: dashed;}
+
+
+		#primer {width: 150px;
+				float: left;
+				height: 150px;
+				border-radius: 10px 10px 0 0;
+				box-shadow: 4px 4px 12px black;
+				background-image: url(photography.png);}
+		
+
+		#segon {width: 180px;
+				float: right;
+				height: 400px;
+				border-radius: 10px 0 10px 0;
+				box-shadow: 4px 4px 12px black;
+				background-image: url(tree_bark.png);}
+
+		#tercer {width: 550px;
+				margin-left: 224px;
+				border-radius: 25px;
+				box-shadow: 4px 4px 12px black;
+				background-image: url(fresh_snow.png);}
+
+
+		#visitas {text-align: right;
+				margin-left: 800px;
+				text-align: center;
+				box-shadow: 8px 5px 5px 3px grey;}
+
+
+
+		
+		ul {background-color: blue;
+		width: 900px;
+		margin: 0 auto;
+		font-size: 16px;}
+	
+		li {background-color: pink;
+		margin: 5px;
+		width: 100px;
+		height: 40px;
+		text-align: center;
+		display: block;
+		float: left;}
+
+		li:hover {background-color: #6CE;}
+
+
+		#parxe {width: 200px;
+			height: 0px;
+			clear: both;}
+
+			
+
+		h1 {color: black;
+		font-family: 'Ubuntu', sans-serif;}
