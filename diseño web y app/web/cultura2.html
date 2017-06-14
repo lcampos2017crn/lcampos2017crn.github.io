@@ -1,0 +1,171 @@
+<html>
+
+	<head>
+			<title>Cultura2</title>
+			<meta author="Laura C.A">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="movil.css" type="text/css">
+			<link rel="stylesheet" href="pantalla.css" type="text/css">
+			
+
+			<style>
+			body{
+				overflow: auto;
+				background-image: url(img/fondoweb91.jpg);}
+				
+			</style>
+			
+		
+	</head>
+
+<body>
+
+<div id="menu-nav">
+
+				<h2 id="abre" onclick="abrir()">Menú</h2>
+
+				<ul id="hmenu">
+					<li id="tanca" onclick="cierra()">X</li>
+				
+				
+				
+					<li>
+						<a href="../web/WebResponsive.html">Inici</a>
+					</li>
+
+
+					<li>
+						<a href="#">Seattle</a>
+						<ul class="sub-menu">
+								<li><a href="../web/situacio.html">Situació</a></li>
+								<li><a href="../web/clima.html">Clima</a></li>
+								<li><a href="../web/economia.html">Economia</a></li>
+								<li><a href="../web/cultura2.html">Cultura</a></li>
+						</ul>
+					</li>
+				
+
+					<li>
+						<a href="../web/arribar.html">Com arribem?</a>
+					</li>
+
+
+					<li>
+						<a href="">Llocs turístics</a>
+						<ul class="sub-menu">
+								<li><a href="..//web/needle.html">Needle Space</a></li>
+								<li><a href="../web/puget.html">Puget Sound</a></li>
+								<li><a href="../web/ballard.html">Ballard Locks</a></li>
+								<li><a href="../web/discovery.html">Discovery Park</a></li>
+								<li><a href="../web/teatre.html">Teatre</a></li>
+								<li><a href="../web/zoo.html">Woodland Park Zoo</a></li>
+								<li><a href="../web/aquari.html">Aquari</a></li>
+								<li><a href="../web/music.html">Experience Music Proyect</a></li>
+								<li><a href="../web/flight.html">Museum Flight</a></li>
+								<li><a href="../web/mohai.html">Museum Mohai</a></li>
+								<li><a href="../web/noria.html">Seattle Great Wheel</a></li>
+								<li><a href="../web/mercat.html">Market Pike Place</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="../web/allotjament.html">Allotjament</a>
+						
+					</li>
+
+					
+					<li>
+						<a href="../web/gastronomia.html">Gastronomia</a>
+						
+					</li>
+
+
+					<li>
+						<a href="../web/transports.html">Transports</a>
+					</li>
+
+					<li>
+						<a href="./galeria/gwd_preview_fotos2/index.html" width="100%" allowfullscreen height="100%" style="border:none">Galeria</a>
+					</li>	
+				</ul>
+			</div>
+
+			<script type="text/javascript" language="javascript">
+			function abrir() {document.getElementById('hmenu').style.left="0";}
+			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+			function ensena_img() {	
+									img1 = document.getElementById('img1');
+									
+									img1.src = "img/tumba-bruce-brandon.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="70%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+									
+								}
+		</script>
+
+
+<h2>Cultura</h2>
+
+
+<div id="texto">
+
+<div style="border:0px solid #000; height: 90%;width: 70%;">
+
+Seattle és considerat un nucli important
+de la cultura dins del país i és la llar 
+del grunge per haver-se originat allà.
+Les bandes més influents d'aquest gènere 
+com Nirvana, Alice in Chains, Pearl Jam, 
+Mudhoney, Soundgarden entre d'altres, 
+és a més centre regional de les arts escèniques
+i és famosa per la seva centenària Orquestra Simfònica de Seattle,
+l'Òpera de Seattle i el Ballet del Nord-oest del Pacífic. 
+El PNB School (fundat el 1974) és una de les tres
+institucions nord-americanes d'entrenament de ballet
+més importants i l'Orquestra Simfònica Jove de Seattle
+és la major organització simfònica juvenil dels Estats Units.
+L'àmplia activitat cultural i vida musical
+de la ciutat inclou a diversos músics com 
+el saxofonista Kenny G, dos grans del jazz
+com Bill Frisell i Wayne Horvitz, el raper
+Sir Mix-a-Lot, les bandes de heavy metal
+Queensryche i Nevermore i bandes de rock 
+com Harvey Danger, Goodness, entre moltes mes.
+També músics com Jimi Hendrix 
+(enterrat a Greenwood Memorial Park, Renton), 
+Duff McKagan, Nikki Sixx i Quincy Jones 
+van rebre la seva formació a Seattle.
+Es pot dir que des del naixement del grunge, 
+la zona ha estat testimoni d'una diversa
+i influent escena musical alternativa.
+Bruce Lee i el seu fill Brandon Lee 
+també estan enterrats a Seattle, al Lake View Cementury.
+
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
+</div>
+
+<div id="cultura">
+			<img src="" id="img1" />
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+</body>
+
+</html>
