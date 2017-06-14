@@ -93,7 +93,35 @@
 			<script type="text/javascript" language="javascript">
 			function abrir() {document.getElementById('hmenu').style.left="0";}
 			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+		function ensena_img() {	
+									img1 = document.getElementById('img1');
+									img2 = document.getElementById('img2');
+									img3 = document.getElementById('img3');
+									
+
+									img1.src = "img/amazon.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="80%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+									img2.src = "img/starbucks.jpg";
+									img2.style.maxWidth ="600px";
+									img2.style.width = "80%";
+									if (img2.style.visibility == 'visible'){
+										img2.style.visibility = 'hidden';
+									}else{
+										img2.style.visibility = 'visible';
+									}
+									
+								
+
+
+								}
 		</script>
+
 
 <h2>Economia</h2>
 
@@ -112,15 +140,24 @@ de menor rang són Costco, Microsoft i Nintendo, Weyerhaeuser
 i el fabricant de camions PACCAR així com T-Mobile, 
 Corixa, Immunex Amgen i ZymoGenetics.
 
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
 </div>
+
+<div id="economia">
+			<img src="" id="img1" vspace="10px"/>
+			<img src="" id="img2" vspace="10px"/>
+			
+		</div>
+
+
 
 </div>
 
-
-<div id="foto">
-<img src="img/amazon.jpg" width="300px" height="200px"/>
-<img src="img/starbucks.jpg" width="300px" height="200px"/>
 </div>
+
 
 </body>
 
