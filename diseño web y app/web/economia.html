@@ -1,0 +1,164 @@
+<html>
+
+	<head>
+			<title>Economia</title>
+			<meta author="Laura C.A">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="movil.css" type="text/css">
+			<link rel="stylesheet" href="pantalla.css" type="text/css">
+
+			<style>
+			body{
+				overflow:auto;
+				background-image: url(img/fondoweb91.jpg);}
+			</style>
+
+
+			
+		</head>
+
+<body>
+<div id="menu-nav">
+
+				<h2 id="abre" onclick="abrir()">Menú</h2>
+
+				<ul id="hmenu">
+					<li id="tanca" onclick="cierra()">X</li>
+				
+				
+				
+					<li>
+						<a href="../web/WebResponsive.html">Inici</a>
+					</li>
+
+
+					<li>
+						<a href="#">Seattle</a>
+						<ul class="sub-menu">
+								<li><a href="../web/situacio.html">Situació</a></li>
+								<li><a href="../web/clima.html">Clima</a></li>
+								<li><a href="../web/economia.html">Economia</a></li>
+								<li><a href="../web/cultura2.html">Cultura</a></li>
+						</ul>
+					</li>
+				
+
+					<li>
+						<a href="../web/arribar.html">Com arribem?</a>
+					</li>
+
+
+					<li>
+						<a href="">Llocs turístics</a>
+						<ul class="sub-menu">
+								<li><a href="..//web/needle.html">Needle Space</a></li>
+								<li><a href="../web/puget.html">Puget Sound</a></li>
+								<li><a href="../web/ballard.html">Ballard Locks</a></li>
+								<li><a href="../web/discovery.html">Discovery Park</a></li>
+								<li><a href="../web/teatre.html">Teatre</a></li>
+								<li><a href="../web/zoo.html">Woodland Park Zoo</a></li>
+								<li><a href="../web/aquari.html">Aquari</a></li>
+								<li><a href="../web/music.html">Experience Music Proyect</a></li>
+								<li><a href="../web/flight.html">Museum Flight</a></li>
+								<li><a href="../web/mohai.html">Museum Mohai</a></li>
+								<li><a href="../web/noria.html">Seattle Great Wheel</a></li>
+								<li><a href="../web/mercat.html">Market Pike Place</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="../web/allotjament.html">Allotjament</a>
+						
+					</li>
+
+					
+					<li>
+						<a href="../web/gastronomia.html">Gastronomia</a>
+						
+					</li>
+
+
+					<li>
+						<a href="../web/transports.html">Transports</a>
+					</li>
+
+					<li>
+						<a href="./galeria/gwd_preview_fotos2/index.html" width="100%" allowfullscreen height="100%" style="border:none">Galeria</a>
+					</li>	
+				</ul>
+			</div>
+
+			<script type="text/javascript" language="javascript">
+			function abrir() {document.getElementById('hmenu').style.left="0";}
+			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+		function ensena_img() {	
+									img1 = document.getElementById('img1');
+									img2 = document.getElementById('img2');
+									img3 = document.getElementById('img3');
+									
+
+									img1.src = "img/amazon.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="80%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+									img2.src = "img/Starbucks.jpg";
+									img2.style.maxWidth ="600px";
+									img2.style.width = "80%";
+									if (img2.style.visibility == 'visible'){
+										img2.style.visibility = 'hidden';
+									}else{
+										img2.style.visibility = 'visible';
+									}
+									
+								
+
+
+								}
+		</script>
+
+
+<h2>Economia</h2>
+
+<div id="texto">
+
+
+<div style="border:0px solid #000; height: 50%;width: 70%;">
+
+Infinitat de grans companyies tenen les seves oficines centrals a Seattle entre les quals es troben algunes de
+les més grans dels Estats Units on es destaquen les grans plantes 
+de fabricació d'aeronaus Boeing a Everett i Renton
+que constitueixen l'empresa més gran a l'àrea metropolitana,
+també Entre les grans companyies localitzades allà es destaquen: 
+Nordstrom, Amazon.com, i Starbucks i altres poderoses però
+de menor rang són Costco, Microsoft i Nintendo, Weyerhaeuser
+i el fabricant de camions PACCAR així com T-Mobile, 
+Corixa, Immunex Amgen i ZymoGenetics.
+
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
+</div>
+
+<div id="economia">
+			<img src="" id="img1" vspace="10px"/>
+			<img src="" id="img2" vspace="10px"/>
+			
+		</div>
+
+
+
+</div>
+
+</div>
+
+
+</body>
+
+</html>
