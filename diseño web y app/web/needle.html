@@ -1,0 +1,161 @@
+<html>
+
+	<head>
+			<title>Needle</title>
+			<meta author="Laura C.A">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="movil.css" type="text/css">
+			<link rel="stylesheet" href="pantalla.css" type="text/css">
+
+			<style>
+			body{
+				overflow: auto;
+				background-image: url(img/fondoweb91.jpg);}
+			
+			</style>
+		
+		
+	</head>
+
+
+	<body>	
+			<div id="menu-nav">
+
+				<h2 id="abre" onclick="abrir()">Menú</h2>
+
+				<ul id="hmenu">
+					<li id="tanca" onclick="cierra()">X</li>
+				
+				
+				
+					<li>
+						<a href="../web/WebResponsive.html">Inici</a>
+					</li>
+
+
+					<li>
+						<a href="#">Seattle</a>
+						<ul class="sub-menu">
+								<li><a href="../web/situacio.html">Situació</a></li>
+								<li><a href="../web/clima.html">Clima</a></li>
+								<li><a href="../web/economia.html">Economia</a></li>
+								<li><a href="../web/cultura2.html">Cultura</a></li>
+						</ul>
+					</li>
+				
+
+					<li>
+						<a href="../web/arribar.html">Com arribem?</a>
+					</li>
+
+
+					<li>
+						<a href="">Llocs turístics</a>
+						<ul class="sub-menu">
+								<li><a href="..//web/needle.html">Needle Space</a></li>
+								<li><a href="../web/puget.html">Puget Sound</a></li>
+								<li><a href="../web/ballard.html">Ballard Locks</a></li>
+								<li><a href="../web/discovery.html">Discovery Park</a></li>
+								<li><a href="../web/teatre.html">Teatre</a></li>
+								<li><a href="../web/zoo.html">Woodland Park Zoo</a></li>
+								<li><a href="../web/aquari.html">Aquari</a></li>
+								<li><a href="../web/music.html">Experience Music Proyect</a></li>
+								<li><a href="../web/flight.html">Museum Flight</a></li>
+								<li><a href="../web/mohai.html">Museum Mohai</a></li>
+								<li><a href="../web/noria.html">Seattle Great Wheel</a></li>
+								<li><a href="../web/mercat.html">Market Pike Place</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="../web/allotjament.html">Allotjament</a>
+						
+					</li>
+
+					
+					<li>
+						<a href="../web/gastronomia.html">Gastronomia</a>
+						
+					</li>
+
+
+					<li>
+						<a href="../web/transports.html">Transports</a>
+					</li>
+
+					<li>
+						<a href="./galeria/gwd_preview_fotos2/index.html" width="100%" allowfullscreen height="100%" style="border:none">Galeria</a>
+					</li>	
+				</ul>
+			</div>
+
+	<script type="text/javascript" language="javascript">
+			function abrir() {document.getElementById('hmenu').style.left="0";}
+			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+			function ensena_img() {	
+									img1 = document.getElementById('img1');
+									img2 = document.getElementById('img2');
+									
+
+									img1.src = "img/SpaceNeedlefromElliottBay.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="90%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+									img2.src = "img/torre-restaur.jpg";
+									img2.style.maxWidth ="600px";
+									img2.style.width = "140%";
+									if (img2.style.visibility == 'visible'){
+										img2.style.visibility = 'hidden';
+									}else{
+										img2.style.visibility = 'visible';
+									}
+									
+								}
+		</script>
+		
+
+<h2>Needle Space</h2>
+
+<div id="texto">
+<div style="border:0px solid #000; height: 100%;width: 70%;">
+
+És una torre i símbol de Seattle, 
+construïda el 1962 al centre de la ciutat. 
+Mesura 184 metres i pesa unes 5850 tones. 
+Per pujar s'agafa l'ascensor que només triga uns segons.
+Aquesta torre no s'utilitza per a fins de radiodifusió.
+Té 25 parallamps al sostre per evitar danys pels llamps. 
+També hi ha un restaurant giratori, anomenat Sky City, 
+a 500 peus (152 metres). Des de dalt de la Space Needle,
+a part de Seattle, també es pot veure les Muntanyes Olímpics
+i les Muntanyes de la serralada de les cascades, 
+el Muntanya Rainier, Muntanya Baker, Elliot Bay i les illes circumdants.
+
+
+
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
+</div>
+
+
+<div id="needle">
+			<img src="" id="img1" vspace="10"/>
+			<img src="" id="img2" vspace="10"/>
+			
+		</div>
+
+</div>
+</div>
+
+
+</body>
+
+</html>

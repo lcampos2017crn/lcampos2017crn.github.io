@@ -1,0 +1,171 @@
+<html>
+
+	<head>
+			<title>Teatre</title>
+			<meta author="Laura C.A">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="movil.css" type="text/css">
+			<link rel="stylesheet" href="pantalla.css" type="text/css">
+
+			<style>
+			body{
+				overflow-x: auto;
+				background-image: url(img/fondoweb91.jpg);}
+				
+			</style>
+		
+	</head>
+
+
+	<body>	
+			<div id="menu-nav">
+
+				<h2 id="abre" onclick="abrir()">Menú</h2>
+
+				<ul id="hmenu">
+					<li id="tanca" onclick="cierra()">X</li>
+				
+				
+				
+					<li>
+						<a href="../web/WebResponsive.html">Inici</a>
+					</li>
+
+
+					<li>
+						<a href="#">Seattle</a>
+						<ul class="sub-menu">
+								<li><a href="../web/situacio.html">Situació</a></li>
+								<li><a href="../web/clima.html">Clima</a></li>
+								<li><a href="../web/economia.html">Economia</a></li>
+								<li><a href="../web/cultura2.html">Cultura</a></li>
+						</ul>
+					</li>
+				
+
+					<li>
+						<a href="../web/arribar.html">Com arribem?</a>
+					</li>
+
+
+					<li>
+						<a href="">Llocs turístics</a>
+						<ul class="sub-menu">
+								<li><a href="..//web/needle.html">Needle Space</a></li>
+								<li><a href="../web/puget.html">Puget Sound</a></li>
+								<li><a href="../web/ballard.html">Ballard Locks</a></li>
+								<li><a href="../web/discovery.html">Discovery Park</a></li>
+								<li><a href="../web/teatre.html">Teatre</a></li>
+								<li><a href="../web/zoo.html">Woodland Park Zoo</a></li>
+								<li><a href="../web/aquari.html">Aquari</a></li>
+								<li><a href="../web/music.html">Experience Music Proyect</a></li>
+								<li><a href="../web/flight.html">Museum Flight</a></li>
+								<li><a href="../web/mohai.html">Museum Mohai</a></li>
+								<li><a href="../web/noria.html">Seattle Great Wheel</a></li>
+								<li><a href="../web/mercat.html">Market Pike Place</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="../web/allotjament.html">Allotjament</a>
+						
+					</li>
+
+					
+					<li>
+						<a href="../web/gastronomia.html">Gastronomia</a>
+						
+					</li>
+
+
+					<li>
+						<a href="../web/transports.html">Transports</a>
+					</li>
+
+					<li>
+						<a href="./galeria/gwd_preview_fotos2/index.html" width="100%" allowfullscreen height="100%" style="border:none">Galeria</a>
+					</li>	
+				</ul>
+			</div>
+
+
+	<script type="text/javascript" language="javascript">
+			function abrir() {document.getElementById('hmenu').style.left="0";}
+			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+			function ensena_img() {	
+									img1 = document.getElementById('img1');
+									
+									
+
+									img1.src = "img/teatre.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="80%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+							
+									
+								}
+		</script>
+
+
+
+<h2>Teatre</h2>
+
+<div id="texto">
+
+<div style="border:0px solid #000; height: 100%;width: 65%;">
+
+El Teatre 5th Avenue (sovint conegut com el 5th Avenue o el 5th) 
+és un teatre referent.Des de la seva obertura el 1926, al teatre 
+s'han representat una varietat de produccions teatrals i pel·lícules. 
+L'edifici i el terreny, que un cop van formar part del campus original, 
+pertanyen a la Universitat de Washington. El teatre funciona com a escenari
+per a la gira nacional de Broadway i per als espectacles originals 
+de l'organització no lucrativa del Teatre 5th Avenue. 
+El teatre, situat al número 1308 de la Cinquena Avinguda 
+a l'històric edifici Skinner, ha estat a la llista del 
+Registre Nacional de Llocs Històrics dels Estats Units des de 1978.
+El teatre, amb els seus 2.130 seients, és la llar de 
+la Companyia Musical del Teatre 5th Avenue, i empra al voltant
+de 600 actors, músics, directors, coreògrafs, dissenyadors, tècnics, tramoistes, taquillers, i administradors, fent que sigui el teatre amb més empleats de la regió de l'estret de Puget. La companyia de teatre, 
+ense ànim de lucre, està recolzada per donacions individuals
+i corporatives, per fonts governamentals, i per la venda d'entrades a les taquilles.
+Actualment, el bo del subscriptor del programa de temporada 
+del 5th inclou sis o set espectacles a l'any, una barreja 
+i estrenes dirigits a espectacles de Broadway, i gires musicals nacionals. 
+El Teatre 5th Avenue ha establert la tradició de ser un "camp de proves" 
+per a nous musicals abans que facin el seu debut a Broadway, llançant èxits com Jekyll and Hyde, Hairspray i The Wedding Singer. 
+El teatre també alberga una varietat d'esdeveniments especials, 
+i ofereix una sèrie de programes d'educació a l'abast dels nens en edat escolar i per a adults que arriben a ser més de 61.000 estudiants, 
+artistes professionals, i espectadors cada any.
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
+</div>
+
+<div id="teatre">
+			<img src="" id="img1" />
+		
+		</div>
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

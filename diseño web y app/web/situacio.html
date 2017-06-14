@@ -1,0 +1,172 @@
+<html>
+
+	<head>
+			<title>Situació</title>
+			<meta author="Laura C.A">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="movil.css" type="text/css">
+			<link rel="stylesheet" href="pantalla.css" type="text/css">
+
+
+			<style>
+			body{
+				overflow:auto;
+				background-image: url(img/fondoweb91.jpg);}
+			</style>
+	
+
+
+	</head>
+
+
+<body>
+
+<div id="menu-nav">
+
+				<h2 id="abre" onclick="abrir()">Menú</h2>
+
+				<ul id="hmenu">
+					<li id="tanca" onclick="cierra()">X</li>
+				
+				
+				
+					<li>
+						<a href="../web/WebResponsive.html">Inici</a>
+					</li>
+
+
+					<li>
+						<a href="#">Seattle</a>
+						<ul class="sub-menu">
+								<li><a href="../web/situacio.html">Situació</a></li>
+								<li><a href="../web/clima.html">Clima</a></li>
+								<li><a href="../web/economia.html">Economia</a></li>
+								<li><a href="../web/cultura2.html">Cultura</a></li>
+						</ul>
+					</li>
+				
+
+					<li>
+						<a href="../web/arribar.html">Com arribem?</a>
+					</li>
+
+
+					<li>
+						<a href="">Llocs turístics</a>
+						<ul class="sub-menu">
+								<li><a href="..//web/needle.html">Needle Space</a></li>
+								<li><a href="../web/puget.html">Puget Sound</a></li>
+								<li><a href="../web/ballard.html">Ballard Locks</a></li>
+								<li><a href="../web/discovery.html">Discovery Park</a></li>
+								<li><a href="../web/teatre.html">Teatre</a></li>
+								<li><a href="../web/zoo.html">Woodland Park Zoo</a></li>
+								<li><a href="../web/aquari.html">Aquari</a></li>
+								<li><a href="../web/music.html">Experience Music Proyect</a></li>
+								<li><a href="../web/flight.html">Museum Flight</a></li>
+								<li><a href="../web/mohai.html">Museum Mohai</a></li>
+								<li><a href="../web/noria.html">Seattle Great Wheel</a></li>
+								<li><a href="../web/mercat.html">Market Pike Place</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="../web/allotjament.html">Allotjament</a>
+						
+					</li>
+
+					
+					<li>
+						<a href="../web/gastronomia.html">Gastronomia</a>
+						
+					</li>
+
+
+					<li>
+						<a href="../web/transports.html">Transports</a>
+					</li>
+
+					<li>
+						<a href="./galeria/gwd_preview_fotos2/index.html" width="100%" allowfullscreen height="100%" style="border:none">Galeria</a>
+					</li>	
+				</ul>
+			</div>
+
+			<script type="text/javascript" language="javascript">
+			function abrir() {document.getElementById('hmenu').style.left="0";}
+			function cierra() {document.getElementById('hmenu').style.left="-300px";}
+			function ensena_img() {	
+									img1 = document.getElementById('img1');
+									img2 = document.getElementById('img2');
+									img3 = document.getElementById('img3');
+
+									img1.src = "img/situacioweb.jpg";
+									img1.style.maxWidth ="600px";
+									img1.style.width ="50%";
+									if (img1.style.visibility == 'visible'){
+										img1.style.visibility = 'hidden';
+									}else{
+										img1.style.visibility = 'visible';
+									}
+									img2.src = "img/wasweb.png";
+									img2.style.maxWidth ="600px";
+									img2.style.width = "80%";
+									if (img2.style.visibility == 'visible'){
+										img2.style.visibility = 'hidden';
+									}else{
+										img2.style.visibility = 'visible';
+									}
+									img3.src = "img/americaweb.png";
+									img3.style.maxWidth = "600px";
+									img3.style.width = "80%";
+									if (img3.style.visibility == 'visible'){
+										img3.style.visibility = 'hidden';
+									}else{
+										img3.style.visibility = 'visible';
+									}
+								}
+		</script>
+
+
+<h2>Situació</h2>
+
+
+<div id="texto">
+
+
+<div style="border:0px solid #000; height: 60%; width: 65%;"> 
+
+Aquesta ciutat situada al nord-oest dels Estats Units d'Amèrica
+constitueix la ciutat més gran de l'Estat de Washington
+i la més gran del Nord-oest del Pacífic.
+La ciutat es troba situada entre el Llac Washington
+i la badia Puget Sound, en les costes de l'oceà pacífic
+i a només 155 quilòmetres al sud de la frontera amb Canadà.
+És un important centre cultural, educatiu i econòmic de la regió
+i és la seu del comtat de King.
+Els voltants de la ciutat es presten a la pràctica 
+de la navegació a vela, càmping, senderisme, esquí, ciclisme
+entre altres activitats recreatives i esportives durant tot l'any.
+
+
+
+
+<div id="bot">
+	<input type="button" value="Foto" onclick = "ensena_img()">
+</div>
+
+<div id="situacio">
+			<img src="" id="img1" />
+			<img src="" id="img2" />
+			<img src="" id="img3" />
+		</div>
+
+</div>
+
+</div>
+
+
+</body>
+
+</html>
